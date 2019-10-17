@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-conversation = gets.chomp
+def conversation = gets.chomp
 
 def speak_to_grandma(conversation)
   if conversation == conversation.upcase
@@ -23,4 +23,3 @@ def speak_to_grandma(conversation)
     puts "HUH?! SPEAK UP, SONNY!"
   end
 end
- 
